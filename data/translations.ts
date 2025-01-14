@@ -11,7 +11,9 @@ export const translations = {
       experience: 'Working Experience',
       projects: 'Personal Projects',
       skills: 'Skills'
-    }
+    },
+    viewCode: 'View Code',
+    viewDemo: 'View Project'
   },
   fr: {
     navigation: {
@@ -25,6 +27,8 @@ export const translations = {
       experience: 'Expérience Professionnelle',
       projects: 'Projets Personnels',
       skills: 'Compétences'
-    }
+    },
+    viewCode: 'Voir le code',
+    viewDemo: 'Voir le projet'
   }
 } as const;

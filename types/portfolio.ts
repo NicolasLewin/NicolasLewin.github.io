@@ -16,9 +16,11 @@ export interface Study {
   
   export interface Project {
     name: string;
+    date: string;
     description: string;
     technologies: string[];
-    link: string;
+    githubLink?: string;
+    demoLink?: string;
   }
   
   export interface Skills {

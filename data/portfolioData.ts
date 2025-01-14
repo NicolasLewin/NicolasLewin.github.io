@@ -84,33 +84,41 @@ export const portfolioData = {
     projects: [
       {
         name: "Music Player",
+        date: "2024",
         description: "Application web permettant aux utilisateurs d'uploader et d'écouter de la musique",
         technologies: ["React", "NextJS", "TypeScript", "PostgreSQL", "Supabase", "Vercel"],
-        link: "https://github.com/username/project1"
+        githubLink: "https://github.com/username/project1",
+        demoLink: "https://demo.project1.com"
       },
       {
         name: "Social Media",
+        date: "2024",
         description: "Réseau social permettant aux utilisateurs de s'exprimer et de réagir en commentaires",
         technologies: ["React", "NextJS", "TypeScript", "MongoDB", "Prisma", "Vercel"],
-        link: "https://github.com/username/project2"
+        githubLink: "https://github.com/username/project1",
+        demoLink: "https://demo.project1.com"
       },
       {
         name: "Media Tracker",
+        date: "2024",
         description: "Application web permettant aux utilisateurs d'ajouter les films et les jeux vidéos qu'ils ont vus/regardés et de leur écrire une review",
         technologies: ["React", "NextJS", "TypeScript", "PostgreSQL", "Supabase", "Prisma", "APIs", "Vercel"],
-        link: "https://github.com/username/project2"
+        githubLink: "https://github.com/username/project1",
+        demoLink: "https://demo.project1.com"
       },
       {
         name: "Weather App",
+        date: "2024",
         description: "Petite application web permettant aux utilisateurs de voir la météo et la température actuelle dans la ville de son choix",
         technologies: ["React", "NextJS", "TypeScript", "APIs", "Vercel"],
-        link: "https://github.com/username/project2"
+        githubLink: "https://github.com/username/project1",
+        demoLink: "https://demo.project1.com"
       },
       {
         name: "Portfolio",
+        date: "2024",
         description: "Ce portfolio ci-même",
         technologies: ["React", "NextJS", "TypeScript", "Github Pages"],
-        link: "https://github.com/username/project2"
       }
     ],
     skills: {
@@ -207,33 +215,41 @@ export const portfolioData = {
     projects: [
       {
         name: "Music Player",
+        date: "2024",
         description: "Application web permettant aux utilisateurs d'uploader et d'écouter de la musique",
         technologies: ["React", "NextJS", "TypeScript", "PostgreSQL", "Supabase", "Vercel"],
-        link: "https://github.com/username/project1"
+        githubLink: "https://github.com/username/project1",
+        demoLink: "https://demo.project1.com"
       },
       {
         name: "Social Media",
+        date: "2024",
         description: "Réseau social permettant aux utilisateurs de s'exprimer et de réagir en commentaires",
         technologies: ["React", "NextJS", "TypeScript", "MongoDB", "Prisma", "Vercel"],
-        link: "https://github.com/username/project2"
+        githubLink: "https://github.com/username/project1",
+        demoLink: "https://demo.project1.com"
       },
       {
         name: "Media Tracker",
+        date: "2024",
         description: "Application web permettant aux utilisateurs d'ajouter les films et les jeux vidéos qu'ils ont vus/regardés et de leur écrire une review",
         technologies: ["React", "NextJS", "TypeScript", "PostgreSQL", "Supabase", "Prisma", "APIs", "Vercel"],
-        link: "https://github.com/username/project2"
+        githubLink: "https://github.com/username/project1",
+        demoLink: "https://demo.project1.com"
       },
       {
         name: "Weather App",
+        date: "2024",
         description: "Petite application web permettant aux utilisateurs de voir la météo et la température actuelle dans la ville de son choix",
         technologies: ["React", "NextJS", "TypeScript", "APIs", "Vercel"],
-        link: "https://github.com/username/project2"
+        githubLink: "https://github.com/username/project1",
+        demoLink: "https://demo.project1.com"
       },
       {
         name: "Portfolio",
+        date: "2024",
         description: "Ce portfolio ci-même",
-        technologies: ["React", "NextJS", "TypeScript", "Github Pages"],
-        link: "https://github.com/username/project2"
+        technologies: ["React", "NextJS", "TypeScript", "Github Pages"]
       }
     ],
     skills: {
