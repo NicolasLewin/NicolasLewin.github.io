@@ -3,15 +3,17 @@ import { portfolioData } from '@/data/portfolioData';
 import { translations } from '@/data/translations';
 import { useLanguage } from '@/context/LanguageContext';
 import { Github, ExternalLink } from 'lucide-react';
+import { Project } from '@/types/portfolio';
 
 export function ProjectsSection() {
   const { language } = useLanguage();
+  const projects = portfolioData[language].projects as readonly Project[];
 
   return (
     <section id="projects" className="scroll-mt-14">
       <h2 className="text-2xl font-bold text-blue-400 mb-6">{translations[language].sections.projects}</h2>
       <div className="space-y-6">
-        {portfolioData[language].projects.map((project, index) => (
+        {projects.map((project, index) => (
           <Card key={index} className="bg-gray-800 border-gray-700">
             <CardContent className="p-6">
               <div className="flex justify-between items-start mb-2">
@@ -26,7 +28,7 @@ export function ProjectsSection() {
                   </span>
                 ))}
               </div>
-              <div className="flex gap-4">
+              <div className="flex gap-3">
                 {project.githubLink && (
                   <a 
                     href={project.githubLink}

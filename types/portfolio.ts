@@ -15,12 +15,12 @@ export interface Study {
   }
   
   export interface Project {
-    name: string;
-    date: string;
-    description: string;
-    technologies: string[];
-    githubLink?: string;
-    demoLink?: string;
+    readonly name: string;
+    readonly date: string;
+    readonly description: string;
+    readonly technologies: readonly string[];
+    readonly githubLink?: string;
+    readonly demoLink?: string;
   }
   
   export interface Skills {
