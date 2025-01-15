@@ -20,10 +20,10 @@ export function StudiesSection() {
                   <p className="text-gray-400 text-sm">{study.year}</p>
                   <p className="mt-2 text-gray-300">{study.description}</p>
                 </div>
-                <img
+                <img  
                   src={study.logo}
                   alt={`${study.school} logo`}
-                  className="w-16 h-16 object-contain bg-white rounded-lg p-2 ml-6"
+                  className="w-24 h-24 object-contain bg-white rounded-lg p-3 ml-6"
                 />
               </div>
             </CardContent>

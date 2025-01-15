@@ -27,7 +27,7 @@ export function ExperiencesSection() {
                 <img
                   src={exp.logo}
                   alt={`${exp.company} logo`}
-                  className="w-16 h-16 object-contain bg-white rounded-lg p-2 ml-6"
+                  className="w-24 h-24 object-contain bg-white rounded-lg p-3 ml-6"
                 />
               </div>
             </CardContent>

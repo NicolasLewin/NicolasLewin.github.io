@@ -10,21 +10,21 @@ export const portfolioData = {
         school: "Université Paris I Panthéon-Sorbonne",
         year: "2020-2022",
         description: "",
-        logo: "/public/images/placeholder.png"
+        logo: "/logos/studies/paris1_logo.png"
       },
       {
         degree: "Licence MIAGE with apprenticeship",
         school: "Université Paris I Panthéon-Sorbonne",
         year: "2019-2020",
         description: "",
-        logo: "/public/images/placeholder.png"
+        logo: "/logos/studies/paris1_logo.png"
       },
       {
         degree: "BTS Informatique (Services Informatiques aux Organisations), option Solutions Logicielles et Applications Métier",
         school: "University Name",
         year: "2014-2018",
         description: "",
-        logo: "/public/images/placeholder.png"
+        logo: "/logos/studies/saintaspais_logo.png"
       }
     ],
     experience: [
@@ -39,7 +39,7 @@ export const portfolioData = {
           "- Application containerization with Docker and Podman",
           "- Training courses on various technologies (React, Java/Spring Boot, Angular)"
         ],
-        logo: "/public/images/placeholder.png"
+        logo: "/logos/experiences/sopra_logo.png"
       },
       {
         title: "Junior developer",
@@ -48,7 +48,7 @@ export const portfolioData = {
         responsibilities: [
           "- Third-party application maintenance on various applications of the Musée du Louvre and ministries (bug fixes, development of features, digital accessibility, etc.), in PHP / Symfony"
         ],
-        logo: "/public/images/placeholder.png"
+        logo: "/logos/experiences/sopra_logo.png"
       },
       {
         title: "Junior developer",
@@ -60,7 +60,7 @@ export const portfolioData = {
           "- Development of an application to display the voting results for municipal elections",
           "- Training course on GIS (Geographic Information System) with ArcGIS Web AppBuilder and development of widgets in JavaScript"
         ],
-        logo: "/public/images/placeholder.png"
+        logo: "/logos/experiences/vitry_logo.png"
       },
       {
         title: "Junior developer JAVA and JavaScript / React",
@@ -70,7 +70,7 @@ export const portfolioData = {
           "- Development of bug fixes for Java applications with SonarQube",
           "- Introduction to the React library"
         ],
-        logo: "/public/images/placeholder.png"
+        logo: "/logos/experiences/hn_logo.png"
       },
       {
         title: "Junior developer PHP",
@@ -79,7 +79,7 @@ export const portfolioData = {
         responsibilities: [
           "- Development of a PHP application to generate life insurance reports based on data submitted on the graphical user interface."
         ],
-        logo: "/public/images/placeholder.png"
+        logo: "/logos/experiences/VIP_logo.png"
       }
     ],
     projects: [
@@ -173,7 +173,7 @@ export const portfolioData = {
       languages: ["HTML / CSS", "JavaScript", "TypeScript", "Python", "Java", "PHP"],
       frameworks: ["React", "NextJS", "Node.js", "Symfony", "SpringBoot", "TailwindCSS", "Boostrap"],
       methods: ["Méthode Agile", "Cycle en V"],
-      tools: ["Git", "Docker", "Podman", "Oracle VM Virtualbox", "SonarQube"],
+      tools: ["Git", "GitLab", "Docker", "Podman", "Oracle VM Virtualbox", "SonarQube", "Jira", "Mantis"],
       databases: ["PostgreSQL", "MySQL", "MongoDB", "Redis"],
       IDEs: ["Visual Studio Code", "JetBrains IDEs"]
     }
@@ -189,21 +189,21 @@ export const portfolioData = {
         school: "Université Paris I Panthéon-Sorbonne",
         year: "2020-2022",
         description: "",
-        logo: "/public/images/placeholder.png"
+        logo: "/logos/studies/paris1_logo.png"
       },
       {
         degree: "Licence MIAGE en apprentissage",
         school: "Université Paris I Panthéon-Sorbonne",
         year: "2019-2020",
         description: "",
-        logo: "/public/images/placeholder.png"
+        logo: "/logos/studies/paris1_logo.png"
       },
       {
         degree: "BTS Informatique (Services Informatiques aux Organisations), option Solutions Logicielles et Applications Métier",
         school: "University Name",
         year: "2014-2018",
         description: "",
-        logo: "/public/images/placeholder.png"
+        logo: "/logos/studies/saintaspais_logo.png"
       }
     ],
     experience: [
@@ -218,7 +218,7 @@ export const portfolioData = {
           "- Conteneurisation d’applications avec Docker et Podman",
           "- Formations sur diverses technologies (React, Java/Spring Boot, Angular)"
         ],
-        logo: "/public/images/placeholder.png"
+        logo: "/logos/experiences/sopra_logo.png"
       },
       {
         title: "Apprenti développeur",
@@ -227,7 +227,7 @@ export const portfolioData = {
         responsibilities: [
           "- Tierce maintenance applicative sur plusieurs applications du musée du Louvre et des ministères (correction de bugs, évolutions, accessibilité numérique, etc.), en PHP / Symfony"
         ],
-        logo: "/public/images/placeholder.png"
+        logo: "/logos/experiences/sopra_logo.png"
       },
       {
         title: "Apprenti développeur",
@@ -238,7 +238,7 @@ export const portfolioData = {
           "- Création d'un affichage graphique pour les résultats de vote pour les élections municipales",
           "- Formation au SIG (Système d'Information Géographique) avec ArcGIS Web AppBuilder avec création de widgets en JavaScript"
         ],
-        logo: "/public/images/placeholder.png"
+        logo: "/logos/experiences/vitry_logo.png"
       },
       {
         title: "Stagiaire développeur JAVA et JavaScript / React",
@@ -248,7 +248,7 @@ export const portfolioData = {
           "- Correction de bugs d'applications Java avec SonarQube",
           "- Initiation à la librairie React"
         ],
-        logo: "/public/images/placeholder.png"
+        logo: "/logos/experiences/hn_logo.png"
       },
       {
         title: "Stagiaire développeur PHP",
@@ -257,7 +257,7 @@ export const portfolioData = {
         responsibilities: [
           "- Développement d'une solution informatique en PHP, permettant de générer des rapports d'assurance-vie en fonction des données rentrées sur l'interface graphique"
         ],
-        logo: "/public/images/placeholder.png"
+        logo: "/logos/experiences/VIP_logo.png"
       }
     ],
     projects: [
@@ -350,7 +350,7 @@ export const portfolioData = {
       languages: ["HTML / CSS", "JavaScript", "TypeScript", "Python", "Java", "PHP"],
       frameworks: ["React", "NextJS", "Node.js", "Symfony", "SpringBoot", "TailwindCSS", "Boostrap"],
       methods: ["Méthode Agile", "Cycle en V"],
-      tools: ["Git", "Docker", "Podman", "Oracle VM Virtualbox", "SonarQube"],
+      tools: ["Git", "GitLab", "Docker", "Podman", "Oracle VM Virtualbox", "SonarQube", "Jira", "Mantis"],
       databases: ["PostgreSQL", "MySQL", "MongoDB", "Redis"],
       IDEs: ["Visual Studio Code", "JetBrains IDEs"]
     }
