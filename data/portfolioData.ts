@@ -89,7 +89,7 @@ export const portfolioData = {
         description: "Web application allowing users to upload and listen to music",
         technologies: ["React", "NextJS", "TypeScript", "TailwindCSS", "PostgreSQL", "Supabase", "Vercel"],
         githubLink: "https://github.com/username/project1",
-        demoLink: "https://demo.project1.com"
+        demoLink: "https://music-player-six-rouge.vercel.app"
       },
       {
         name: "Social Media",
@@ -97,7 +97,7 @@ export const portfolioData = {
         description: "Social network allowing users to express themselves and react in comments",
         technologies: ["React", "NextJS", "TypeScript", "TailwindCSS", "MongoDB", "Prisma", "Vercel"],
         githubLink: "https://github.com/username/project1",
-        demoLink: "https://demo.project1.com"
+        demoLink: "https://social-media-one-topaz.vercel.app"
       },
       {
         name: "Media Tracker",
@@ -105,7 +105,7 @@ export const portfolioData = {
         description: "Web application allowing users to add movies and video games they've seen/watched and write a review for them",
         technologies: ["React", "NextJS", "TypeScript", "TailwindCSS","PostgreSQL", "Supabase", "Prisma", "APIs", "Vercel"],
         githubLink: "https://github.com/username/project1",
-        demoLink: "https://demo.project1.com"
+        demoLink: "https://media-tracker-six.vercel.app"
       },
       {
         name: "Weather App",
@@ -113,7 +113,7 @@ export const portfolioData = {
         description: "Small web application allowing users to see the current weather and temperature of the city of their choice",
         technologies: ["React", "NextJS", "TypeScript","Tailwind CSS", "APIs", "Vercel"],
         githubLink: "https://github.com/username/project1",
-        demoLink: "https://demo.project1.com"
+        demoLink: "https://weather-app-seven-beige-57.vercel.app"
       },
       {
         name: "Portfolio",
@@ -267,7 +267,7 @@ export const portfolioData = {
         description: "Application web permettant aux utilisateurs d'uploader et d'écouter de la musique",
         technologies: ["React", "NextJS", "TypeScript", "Tailwind CSS", "PostgreSQL", "Supabase", "Vercel"],
         githubLink: "https://github.com/username/project1",
-        demoLink: "https://demo.project1.com"
+        demoLink: "https://music-player-six-rouge.vercel.app"
       },
       {
         name: "Social Media",
@@ -275,7 +275,7 @@ export const portfolioData = {
         description: "Réseau social permettant aux utilisateurs de s'exprimer et de réagir en commentaires",
         technologies: ["React", "NextJS", "TypeScript", "Tailwind CSS", "MongoDB", "Prisma", "Vercel"],
         githubLink: "https://github.com/username/project1",
-        demoLink: "https://demo.project1.com"
+        demoLink: "https://social-media-one-topaz.vercel.app"
       },
       {
         name: "Media Tracker",
@@ -283,7 +283,7 @@ export const portfolioData = {
         description: "Application web permettant aux utilisateurs d'ajouter les films et les jeux vidéos qu'ils ont vus/regardés et de leur écrire une review",
         technologies: ["React", "NextJS", "TypeScript", "Tailwind CSS", "PostgreSQL", "Supabase", "Prisma", "APIs", "Vercel"],
         githubLink: "https://github.com/username/project1",
-        demoLink: "https://demo.project1.com"
+        demoLink: "https://media-tracker-six.vercel.app"
       },
       {
         name: "Weather App",
@@ -291,7 +291,7 @@ export const portfolioData = {
         description: "Petite application web permettant aux utilisateurs de voir la météo et la température actuelle dans la ville de son choix",
         technologies: ["React", "NextJS", "TypeScript", "Tailwind CSS", "APIs", "Vercel"],
         githubLink: "https://github.com/username/project1",
-        demoLink: "https://demo.project1.com"
+        demoLink: "https://weather-app-seven-beige-57.vercel.app"
       },
       {
         name: "Portfolio",
