@@ -2,27 +2,28 @@ export const portfolioData = {
   en: {
     header: {
       name: "Nicolas Lewin",
-      title: "Fullstack Software Engineer"
+      title: "Fullstack Software Engineer",
+      paragraph: "8 years of development with 5 years of professional experience"
     },
     studies: [
       {
-        degree: "Master MIAGE IKSEM (english courses) with apprenticeship",
-        school: "Université Paris I Panthéon-Sorbonne",
+        degree: "Master of Information System Management (with english courses) in apprenticeship",
+        school: "Paris I Panthéon-Sorbonne University",
         year: "2020-2022",
         description: "",
         logo: "/logos/studies/paris1_logo.png"
       },
       {
-        degree: "Licence MIAGE with apprenticeship",
-        school: "Université Paris I Panthéon-Sorbonne",
+        degree: "Bachelor of Information System Management in apprenticeship",
+        school: "Paris I Panthéon-Sorbonne University",
         year: "2019-2020",
         description: "",
         logo: "/logos/studies/paris1_logo.png"
       },
       {
-        degree: "BTS Informatique (Services Informatiques aux Organisations), option Solutions Logicielles et Applications Métier",
-        school: "University Name",
-        year: "2014-2018",
+        degree: "BTEC Higher National Diploma in Information System",
+        school: "Saint-Aspais Institution",
+        year: "2017-2019",
         description: "",
         logo: "/logos/studies/saintaspais_logo.png"
       }
@@ -84,42 +85,47 @@ export const portfolioData = {
     ],
     projects: [
       {
+        name: "Travel Planner [IN DEVELOPMENT]",
+        date: "2025",
+        description: "Mobile application with a range of useful trip-planning features",
+        technologies: ["React Native", "TypeScript", "Tailwind CSS"],
+      },
+      {
         name: "Music Player",
         date: "2024",
         description: "Web application allowing users to upload and listen to music",
-        technologies: ["React", "NextJS", "TypeScript", "TailwindCSS", "PostgreSQL", "Supabase", "Vercel"],
-        githubLink: "https://github.com/username/project1",
+        technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL", "Supabase", "Vercel"],
         demoLink: "https://music-player-six-rouge.vercel.app"
       },
       {
         name: "Social Media",
         date: "2024",
         description: "Social network allowing users to express themselves and react in comments",
-        technologies: ["React", "NextJS", "TypeScript", "TailwindCSS", "MongoDB", "Prisma", "Vercel"],
-        githubLink: "https://github.com/username/project1",
+        technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "MongoDB", "Prisma", "Vercel"],
+        githubLink: "https://github.com/NicolasLewin/social-media",
         demoLink: "https://social-media-one-topaz.vercel.app"
       },
       {
         name: "Media Tracker",
         date: "2024",
         description: "Web application allowing users to add movies and video games they've seen/watched and write a review for them",
-        technologies: ["React", "NextJS", "TypeScript", "TailwindCSS","PostgreSQL", "Supabase", "Prisma", "APIs", "Vercel"],
-        githubLink: "https://github.com/username/project1",
+        technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS","PostgreSQL", "Supabase", "Prisma", "APIs", "Vercel"],
+        githubLink: "https://github.com/NicolasLewin/media-tracker",
         demoLink: "https://media-tracker-six.vercel.app"
       },
       {
         name: "Weather App",
         date: "2024",
         description: "Small web application allowing users to see the current weather and temperature of the city of their choice",
-        technologies: ["React", "NextJS", "TypeScript","Tailwind CSS", "APIs", "Vercel"],
-        githubLink: "https://github.com/username/project1",
+        technologies: ["React", "Next.js", "TypeScript","Tailwind CSS", "APIs", "Vercel"],
+        githubLink: "https://github.com/NicolasLewin/weather",
         demoLink: "https://weather-app-seven-beige-57.vercel.app"
       },
       {
         name: "Portfolio",
         date: "2024",
         description: "This portfolio itself",
-        technologies: ["React", "NextJS", "TypeScript", "Tailwind CSS", "Github Pages"],
+        technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Github Pages"],
       },
       {
         name: "Business creation project",
@@ -152,7 +158,7 @@ export const portfolioData = {
         date: "2020",
         description: "A Symfony application/game allowing users to collect monsters by various means",
         technologies: ["PHP", "Symfony", "Bootstrap" ,"MySQL"],
-        githubLink: "https://github.com/NicolasLewin/sncf-infogare"
+        githubLink: "https://github.com/NicolasLewin/webtp6"
       },
       {
         name: "Car-sharing application",
@@ -171,7 +177,7 @@ export const portfolioData = {
     ],
     skills: {
       languages: ["HTML / CSS", "JavaScript", "TypeScript", "Python", "Java", "PHP"],
-      frameworks: ["React", "NextJS", "Node.js", "Symfony", "SpringBoot", "TailwindCSS", "Boostrap"],
+      frameworks: ["React", "Next.js", "Node.js", "Symfony", "SpringBoot", "Tailwind CSS", "Boostrap"],
       methods: ["Méthode Agile", "Cycle en V"],
       tools: ["Git", "GitLab", "Docker", "Podman", "Oracle VM Virtualbox", "SonarQube", "Jira", "Mantis"],
       databases: ["PostgreSQL", "MySQL", "MongoDB", "Redis"],
@@ -181,7 +187,8 @@ export const portfolioData = {
   fr: {
     header: {
       name: "Nicolas Lewin",
-      title: "Ingénieur développeur fullstack"
+      title: "Ingénieur développeur fullstack",
+      paragraph: "8 ans de développement avec 5 ans d'expérience professionnelle"
     },
     studies: [
       {
@@ -200,8 +207,8 @@ export const portfolioData = {
       },
       {
         degree: "BTS Informatique (Services Informatiques aux Organisations), option Solutions Logicielles et Applications Métier",
-        school: "University Name",
-        year: "2014-2018",
+        school: "Institution Saint-Aspais",
+        year: "2017-2019",
         description: "",
         logo: "/logos/studies/saintaspais_logo.png"
       }
@@ -262,42 +269,47 @@ export const portfolioData = {
     ],
     projects: [
       {
+        name: "Travel Planner [EN DEVELOPPEMENT]",
+        date: "2025",
+        description: "Application mobile comprenant diverses fonctionnalités utiles pour la planification d'un voyage",
+        technologies: ["React Native", "TypeScript", "Tailwind CSS"],
+      },
+      {
         name: "Music Player",
         date: "2024",
         description: "Application web permettant aux utilisateurs d'uploader et d'écouter de la musique",
-        technologies: ["React", "NextJS", "TypeScript", "Tailwind CSS", "PostgreSQL", "Supabase", "Vercel"],
-        githubLink: "https://github.com/username/project1",
+        technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL", "Supabase", "Vercel"],
         demoLink: "https://music-player-six-rouge.vercel.app"
       },
       {
         name: "Social Media",
         date: "2024",
         description: "Réseau social permettant aux utilisateurs de s'exprimer et de réagir en commentaires",
-        technologies: ["React", "NextJS", "TypeScript", "Tailwind CSS", "MongoDB", "Prisma", "Vercel"],
-        githubLink: "https://github.com/username/project1",
+        technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "MongoDB", "Prisma", "Vercel"],
+        githubLink: "https://github.com/NicolasLewin/social-media",
         demoLink: "https://social-media-one-topaz.vercel.app"
       },
       {
         name: "Media Tracker",
         date: "2024",
         description: "Application web permettant aux utilisateurs d'ajouter les films et les jeux vidéos qu'ils ont vus/regardés et de leur écrire une review",
-        technologies: ["React", "NextJS", "TypeScript", "Tailwind CSS", "PostgreSQL", "Supabase", "Prisma", "APIs", "Vercel"],
-        githubLink: "https://github.com/username/project1",
+        technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL", "Supabase", "Prisma", "APIs", "Vercel"],
+        githubLink: "https://github.com/NicolasLewin/media-tracker",
         demoLink: "https://media-tracker-six.vercel.app"
       },
       {
         name: "Weather App",
         date: "2024",
         description: "Petite application web permettant aux utilisateurs de voir la météo et la température actuelle dans la ville de son choix",
-        technologies: ["React", "NextJS", "TypeScript", "Tailwind CSS", "APIs", "Vercel"],
-        githubLink: "https://github.com/username/project1",
+        technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "APIs", "Vercel"],
+        githubLink: "https://github.com/NicolasLewin/weather",
         demoLink: "https://weather-app-seven-beige-57.vercel.app"
       },
       {
         name: "Portfolio",
         date: "2024",
         description: "Ce portfolio ci-même",
-        technologies: ["React", "NextJS", "TypeScript", "Tailwind CSS", "Github Pages"]
+        technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Github Pages"]
       },
       {
         name: "Projet de Création d'entreprise",
@@ -330,7 +342,7 @@ export const portfolioData = {
         date: "2020",
         description: "Application/jeu en Symfony permettant à l'utilisateur de collectionner des monstres en s'en procurant par divers moyens",
         technologies: ["PHP", "Symfony", "Bootstrap" ,"MySQL"],
-        githubLink: "https://github.com/NicolasLewin/sncf-infogare"
+        githubLink: "https://github.com/NicolasLewin/webtp6"
       },
       {
         name: "Application de covoiturage",
@@ -348,7 +360,7 @@ export const portfolioData = {
     ],
     skills: {
       languages: ["HTML / CSS", "JavaScript", "TypeScript", "Python", "Java", "PHP"],
-      frameworks: ["React", "NextJS", "Node.js", "Symfony", "SpringBoot", "TailwindCSS", "Boostrap"],
+      frameworks: ["React", "Next.js", "Node.js", "Symfony", "SpringBoot", "Tailwind CSS", "Boostrap"],
       methods: ["Méthode Agile", "Cycle en V"],
       tools: ["Git", "GitLab", "Docker", "Podman", "Oracle VM Virtualbox", "SonarQube", "Jira", "Mantis"],
       databases: ["PostgreSQL", "MySQL", "MongoDB", "Redis"],

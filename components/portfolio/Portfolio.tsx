@@ -7,6 +7,7 @@ import { StudiesSection } from '@/components/portfolio/StudiesSection';
 import { ExperiencesSection } from '@/components/portfolio/ExperiencesSection';
 import { ProjectsSection } from '@/components/portfolio/ProjectsSection';
 import { SkillsSection } from '@/components/portfolio/SkillsSection';
+import { ContactSection } from './ContactSection';
 
 export function Portfolio() {
   const [activeSection, setActiveSection] = useState('studies');
@@ -60,6 +61,7 @@ export function Portfolio() {
             <ExperiencesSection />
             <ProjectsSection />
             <SkillsSection />
+            <ContactSection />
           </div>
         </div>
       </div>

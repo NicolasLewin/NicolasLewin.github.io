@@ -4,13 +4,18 @@ export const translations = {
       studies: 'Studies',
       experience: 'Experience',
       projects: 'Projects',
-      skills: 'Skills'
+      skills: 'Skills',
+      contact: 'Contact'
     },
     sections: {
       studies: 'Studies',
       experience: 'Working Experience',
-      projects: 'Personal Projects',
-      skills: 'Skills'
+      projects: 'My Projects',
+      skills: 'Skills',
+      contact: 'Contact'
+    },
+    contact: {
+      text: "Are you interested in my profile? Feel free to reach out to me at:"
     },
     viewCode: 'View Code',
     viewDemo: 'View Project'
@@ -20,13 +25,18 @@ export const translations = {
       studies: 'Formation',
       experience: 'Expérience',
       projects: 'Projets',
-      skills: 'Compétences'
+      skills: 'Compétences',
+      contact: 'Contact'
     },
     sections: {
       studies: 'Formation',
       experience: 'Expérience Professionnelle',
-      projects: 'Projets Personnels',
-      skills: 'Compétences'
+      projects: 'Mes Projets',
+      skills: 'Compétences',
+      contact: 'Contact'
+    },
+    contact: {
+      text: "Mon profil vous intéresse ? Contactez-moi à l'adresse suivante :"
     },
     viewCode: 'Voir le code',
     viewDemo: 'Voir le projet'
