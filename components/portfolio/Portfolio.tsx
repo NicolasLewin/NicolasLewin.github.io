@@ -16,6 +16,15 @@ export function Portfolio() {
     const observers: Record<string, IntersectionObserver> = {};
     const sections = ['studies', 'experience', 'projects', 'skills'];
     
+    const handleScroll = () => {
+      const bottomThreshold = 10;
+      if ((window.innerHeight + window.scrollY) >= document.documentElement.scrollHeight - bottomThreshold) {
+        setActiveSection('contact');
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
     const observerOptions: IntersectionObserverInit = {
       threshold: 0.1,
       rootMargin: '-56px 0px -40% 0px'
@@ -27,7 +36,9 @@ export function Portfolio() {
         observers[sectionId] = new IntersectionObserver(entries => {
           entries.forEach(entry => {
             if (entry.isIntersecting) {
-              setActiveSection(sectionId);
+              if ((window.innerHeight + window.scrollY) < document.documentElement.scrollHeight - 50) {
+                setActiveSection(sectionId);
+              }
             }
           });
         }, observerOptions);
@@ -37,6 +48,7 @@ export function Portfolio() {
     });
 
     return () => {
+      window.removeEventListener('scroll', handleScroll);
       sections.forEach(sectionId => {
         if (observers[sectionId]) {
           observers[sectionId].disconnect();
