@@ -26,6 +26,7 @@ export interface Study {
   export interface Skills {
     languages: string[];
     frameworks: string[];
+    libraries: string[];
     methods: string[];
     tools: string[];
     databases: string[];

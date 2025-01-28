@@ -18,12 +18,16 @@ export function StudiesSection() {
                   <h3 className="text-xl font-semibold mb-2 text-blue-300">{study.degree}</h3>
                   <p className="text-gray-300">{study.school}</p>
                   <p className="text-gray-400 text-sm">{study.year}</p>
-                  <p className="mt-2 text-gray-300">{study.description}</p>
+                  <ul className="mt-2 space-y-1">
+                    {study.description.map((study, id) => (
+                      <li key={id} className="text-gray-300">- {study}</li>
+                    ))}
+                  </ul>
                 </div>
                 <img  
                   src={study.logo}
                   alt={`${study.school} logo`}
-                  className="w-24 h-24 object-contain bg-white rounded-lg p-3 ml-6"
+                  className="w-36 h-36 object-contain bg-white rounded-lg p-3 ml-6"
                 />
               </div>
             </CardContent>

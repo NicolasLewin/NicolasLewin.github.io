@@ -22,15 +22,15 @@ export const translations = {
   },
   fr: {
     navigation: {
-      studies: 'Formation',
-      experience: 'Expérience',
+      studies: 'Formations',
+      experience: 'Expériences',
       projects: 'Projets',
       skills: 'Compétences',
       contact: 'Contact'
     },
     sections: {
-      studies: 'Formation',
-      experience: 'Expérience Professionnelle',
+      studies: 'Formations',
+      experience: 'Expériences Professionnelles',
       projects: 'Mes Projets',
       skills: 'Compétences',
       contact: 'Contact'

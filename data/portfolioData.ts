@@ -10,21 +10,55 @@ export const portfolioData = {
         degree: "Master of Information System Management (with english courses) in apprenticeship",
         school: "Paris I Panthéon-Sorbonne University",
         year: "2020-2022",
-        description: "",
+        description: [
+          "Frameworks and business components",
+          "Software and web architecture",
+          "NoSQL databases",
+          "Cloud and pervasive computing",
+          "IS Security",
+          "Advanced software engineering",
+          "Business process engineering",
+          "Requirements engineering",
+          "Business intelligence",
+          "Advanced project management",
+          "Technology watch"
+        ],
         logo: "/logos/studies/paris1_logo.png"
       },
       {
         degree: "Bachelor of Information System Management in apprenticeship",
         school: "Paris I Panthéon-Sorbonne University",
         year: "2019-2020",
-        description: "",
+        description: [
+          "Algorithms",
+          "Object programming",
+          "Functional programming",
+          "Software and web architecture",
+          "Web development with frameworks",
+          "Operating systems and system programming",
+          "Relational databases",
+          "Software engineering",
+          "Business process engineering",
+          "Networks",
+          "Project management"
+        ],
         logo: "/logos/studies/paris1_logo.png"
       },
       {
         degree: "BTEC Higher National Diploma in Information System",
         school: "Saint-Aspais Institution",
         year: "2017-2019",
-        description: "",
+        description: [
+          "Algorithms",
+          "Object programming",
+          "Functional programming",
+          "Web development",
+          "Relational databases",
+          "Software engineering",
+          "Business process engineering",
+          "Networks",
+          "Project Management"
+        ],
         logo: "/logos/studies/saintaspais_logo.png"
       }
     ],
@@ -177,8 +211,9 @@ export const portfolioData = {
     ],
     skills: {
       languages: ["HTML / CSS", "JavaScript", "TypeScript", "Python", "Java", "PHP"],
-      frameworks: ["React", "Next.js", "Node.js", "Symfony", "SpringBoot", "Tailwind CSS", "Boostrap"],
-      methods: ["Méthode Agile", "Cycle en V"],
+      frameworks: ["Next.js", "Symfony", "SpringBoot"],
+      libraries: ["React", "Tailwind CSS", "Boostrap"],
+      methods: ["Agile", "V Model"],
       tools: ["Git", "GitLab", "Docker", "Podman", "Oracle VM Virtualbox", "SonarQube", "Jira", "Mantis"],
       databases: ["PostgreSQL", "MySQL", "MongoDB", "Redis"],
       IDEs: ["Visual Studio Code", "JetBrains IDEs"]
@@ -188,28 +223,62 @@ export const portfolioData = {
     header: {
       name: "Nicolas Lewin",
       title: "Ingénieur développeur fullstack",
-      paragraph: "8 ans de développement avec 5 ans d'expérience professionnelle"
+      paragraph: "8 ans de développement avec 5 ans d'expériences professionnelles"
     },
     studies: [
       {
-        degree: "Master MIAGE IKSEM (cours en anglais) en apprentissage",
+        degree: "Master MIAGE IKSEM (Information Knowledge, Systems Engineering and Management), formation en anglais et en apprentissage",
         school: "Université Paris I Panthéon-Sorbonne",
         year: "2020-2022",
-        description: "",
+        description: [
+          "Frameworks et composants métier",
+          "Architecture logicielle et web",
+          "Bases de données NoSQL",
+          "Cloud et pervasive computing",
+          "Sécurité des SI",
+          "Génie logiciel avancé",
+          "Ingénierie de processus métier",
+          "Ingénierie des exigences",
+          "Business Intelligence",
+          "Gestion de projet avancée",
+          "Veille technologique"
+        ],
         logo: "/logos/studies/paris1_logo.png"
       },
       {
-        degree: "Licence MIAGE en apprentissage",
+        degree: "Licence MIAGE (Méthodes Informatiques appliquées à la Gestion des Entreprises) en apprentissage",
         school: "Université Paris I Panthéon-Sorbonne",
         year: "2019-2020",
-        description: "",
+        description: [
+          "Algorithmique",
+          "Programmation objet",
+          "Programmation fonctionnelle",
+          "Architecture logicielle et web",
+          "Développement web avec frameworks",
+          "Systèmes d'exploitation et programmation système",
+          "Bases de données relationnelles",
+          "Génie logiciel",
+          "Ingénierie de processus métier",
+          "Réseaux",
+          "Gestion de projet"
+        ],
         logo: "/logos/studies/paris1_logo.png"
       },
       {
         degree: "BTS Informatique (Services Informatiques aux Organisations), option Solutions Logicielles et Applications Métier",
         school: "Institution Saint-Aspais",
         year: "2017-2019",
-        description: "",
+        description: [
+          "Algorithmique",
+          "Programmation objet",
+          "Programmation fonctionnelle",
+          "Développement Web",
+          "Bases de données relationnelles",
+          "Génie logiciel",
+          "Ingénierie de processus métier",
+          "Réseaux",
+          "Gestion de projet"
+        ],
         logo: "/logos/studies/saintaspais_logo.png"
       }
     ],
@@ -360,7 +429,8 @@ export const portfolioData = {
     ],
     skills: {
       languages: ["HTML / CSS", "JavaScript", "TypeScript", "Python", "Java", "PHP"],
-      frameworks: ["React", "Next.js", "Node.js", "Symfony", "SpringBoot", "Tailwind CSS", "Boostrap"],
+      frameworks: ["Next.js", "Symfony", "SpringBoot"],
+      libraries: ["React", "Tailwind CSS", "Boostrap"],
       methods: ["Méthode Agile", "Cycle en V"],
       tools: ["Git", "GitLab", "Docker", "Podman", "Oracle VM Virtualbox", "SonarQube", "Jira", "Mantis"],
       databases: ["PostgreSQL", "MySQL", "MongoDB", "Redis"],

@@ -27,7 +27,7 @@ export function Header() {
         </div>
         <div className="flex-shrink-0">
           <img
-            src="/api/placeholder/200/200"
+            src="/profile/profile.jpg"
             alt="Profile Picture"
             className="w-48 h-48 rounded-full object-cover border-4 border-blue-400"
           />
