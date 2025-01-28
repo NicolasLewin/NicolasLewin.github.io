@@ -198,16 +198,14 @@ export const portfolioData = {
         name: "Car-sharing application",
         date: "2019",
         description: "Application that allows users to find occupied or unoccupied cars for their trips",
-        technologies: ["HTML", "CSS", "Bootstrap", "JavaScript", "PHP", "MVC", "MySQL"],
-        githubLink: "https://github.com/NicolasLewin/sncf-infogare"
+        technologies: ["HTML", "CSS", "Bootstrap", "JavaScript", "PHP", "MVC", "MySQL"]
       },
       {
         name: "Application for an original product",
         date: "2018",
         description: "Creation of a application dedicated to a totally original product, as part of a small business start-up project.",
-        technologies: ["HTML", "CSS", "Bootstrap", "JavaScript", "PHP", "MySQL"],
+        technologies: ["HTML", "CSS", "Bootstrap", "JavaScript", "PHP", "MySQL"]
       },
-
     ],
     skills: {
       languages: ["HTML / CSS", "JavaScript", "TypeScript", "Python", "Java", "PHP"],
@@ -417,14 +415,13 @@ export const portfolioData = {
         name: "Application de covoiturage",
         date: "2019",
         description: "Application permettant aux utilisateurs de trouver des voitures déjà occupées ou non, pour leurs trajets",
-        technologies: ["HTML", "CSS", "Bootstrap", "JavaScript", "PHP", "MVC", "MySQL"],
-        githubLink: "https://github.com/NicolasLewin/sncf-infogare"
+        technologies: ["HTML", "CSS", "Bootstrap", "JavaScript", "PHP", "MVC", "MySQL"]
       },
       {
         name: "Application pour produit original",
         date: "2018",
         description: "Création d'un site internet dédié à un produit totalement original, dans le cadre d'un petit projet de création d'entreprise",
-        technologies: ["HTML", "CSS", "Bootstrap", "JavaScript", "PHP", "MySQL"],
+        technologies: ["HTML", "CSS", "Bootstrap", "JavaScript", "PHP", "MySQL"]
       }
     ],
     skills: {
