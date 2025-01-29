@@ -99,7 +99,7 @@ export const portfolioData = {
       },
       {
         title: "Junior developer JAVA and JavaScript / React",
-        company: "Groupe HN",
+        company: "HN Services",
         period: "Jan. 2019 - Feb. 2019",
         responsibilities: [
           "- Development of bug fixes for Java applications with SonarQube",
@@ -316,7 +316,7 @@ export const portfolioData = {
       },
       {
         title: "Stagiaire développeur JAVA et JavaScript / React",
-        company: "Groupe HN",
+        company: "HN Services",
         period: "Janv. 2019 - Fév. 2019",
         responsibilities: [
           "- Correction de bugs d'applications Java avec SonarQube",
