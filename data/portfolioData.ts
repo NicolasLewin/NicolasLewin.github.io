@@ -209,8 +209,8 @@ export const portfolioData = {
     ],
     skills: {
       languages: ["HTML / CSS", "JavaScript", "TypeScript", "Python", "Java", "PHP"],
-      frameworks: ["Next.js", "Symfony", "SpringBoot"],
-      libraries: ["React", "Tailwind CSS", "Boostrap"],
+      frameworks: ["Next.js", "Angular", "Symfony", "SpringBoot"],
+      libraries: ["React", "Tailwind CSS", "Bootstrap"],
       methods: ["Agile", "V Model"],
       tools: ["Git", "GitLab", "Docker", "Podman", "Oracle VM Virtualbox", "SonarQube", "Jira", "Mantis"],
       databases: ["PostgreSQL", "MySQL", "MongoDB", "Redis"],
@@ -426,8 +426,8 @@ export const portfolioData = {
     ],
     skills: {
       languages: ["HTML / CSS", "JavaScript", "TypeScript", "Python", "Java", "PHP"],
-      frameworks: ["Next.js", "Symfony", "SpringBoot"],
-      libraries: ["React", "Tailwind CSS", "Boostrap"],
+      frameworks: ["Next.js", "Angular", "Symfony", "SpringBoot"],
+      libraries: ["React", "Tailwind CSS", "Bootstrap"],
       methods: ["Méthode Agile", "Cycle en V"],
       tools: ["Git", "GitLab", "Docker", "Podman", "Oracle VM Virtualbox", "SonarQube", "Jira", "Mantis"],
       databases: ["PostgreSQL", "MySQL", "MongoDB", "Redis"],
