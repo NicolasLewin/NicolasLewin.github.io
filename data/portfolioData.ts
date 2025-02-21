@@ -103,7 +103,7 @@ export const portfolioData = {
         period: "Jan. 2019 - Feb. 2019",
         responsibilities: [
           "- Development of bug fixes for Java applications with SonarQube",
-          "- Introduction to the React library"
+          "- Development of an application using the React library"
         ],
         logo: "/logos/experiences/hn_logo.png"
       },
@@ -112,7 +112,8 @@ export const portfolioData = {
         company: "Valeurs Investissements Patrimoine",
         period: "May 2018 - June 2018",
         responsibilities: [
-          "- Development of a PHP application to generate life insurance reports based on data submitted on the graphical user interface."
+          "- Development of a PHP application to generate life insurance reports based on data submitted on the graphical user interface.",
+          "- Writing the project specifications"
         ],
         logo: "/logos/experiences/VIP_logo.png"
       }
@@ -320,7 +321,7 @@ export const portfolioData = {
         period: "Janv. 2019 - Fév. 2019",
         responsibilities: [
           "- Correction de bugs d'applications Java avec SonarQube",
-          "- Initiation à la librairie React"
+          "- Développement d'une application en React"
         ],
         logo: "/logos/experiences/hn_logo.png"
       },
@@ -329,7 +330,8 @@ export const portfolioData = {
         company: "Valeurs Investissements Patrimoine",
         period: "Mai 2018 - Juin 2018",
         responsibilities: [
-          "- Développement d'une solution informatique en PHP, permettant de générer des rapports d'assurance-vie en fonction des données rentrées sur l'interface graphique"
+          "- Développement d'une solution informatique en PHP, permettant de générer des rapports d'assurance-vie en fonction des données rentrées sur l'interface graphique",
+          "- Rédaction du cahier des charges"
         ],
         logo: "/logos/experiences/VIP_logo.png"
       }
