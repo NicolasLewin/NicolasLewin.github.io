@@ -66,27 +66,19 @@ export const portfolioData = {
       {
         title: "Fullstack Software Engineer",
         company: "Sopra Steria",
-        period: "Oct. 2022 - Feb. 2024",
+        period: "Sept. 2020 - Feb. 2024",
         responsibilities: [
-          "- Development of features of several ministry applications (sport, health, culture), in JavaScript, Angular, PHP, Symfony",
+          "- Development of features of several ministry applications (sport, health, culture), as well as of the Musée du Louvre and the Musée Delacroix, in JavaScript, Angular, PHP, Symfony",
           "- Development of bug fixes",
           "- Test and qualify applications",
           "- Application containerization with Docker and Podman",
+          "- Implemented CI/CD pipelines",
           "- Training courses on various technologies (React, Java/Spring Boot, Angular)"
         ],
         logo: "/logos/experiences/sopra_logo.png"
       },
       {
-        title: "Junior developer",
-        company: "Sopra Steria",
-        period: "Sept. 2020 - Sept. 2022",
-        responsibilities: [
-          "- Third-party application maintenance on various applications of the Musée du Louvre and ministries (bug fixes, development of features, digital accessibility, etc.), in PHP / Symfony"
-        ],
-        logo: "/logos/experiences/sopra_logo.png"
-      },
-      {
-        title: "Junior developer",
+        title: "Fullstack developer",
         company: "City Hall of Vitry-sur-Seine",
         period: "Sept. 2019 - Aug. 2020",
         responsibilities: [
@@ -285,27 +277,19 @@ export const portfolioData = {
       {
         title: "Ingénieur étude et développement",
         company: "Sopra Steria",
-        period: "Oct. 2022 - Fév. 2024",
+        period: "Sept. 2020 - Fév. 2024",
         responsibilities: [
-          "- Développement d’évolutions sur plusieurs applications des ministères (sport, santé, culture), en JavaScript, Angular, PHP, Symfony",
+          "- Développement d'évolutions sur plusieurs applications des ministères (sport, santé, culture) ainsi que sur les musées du Louvre et Delacroix, en JavaScript, Angular, PHP, Symfony",
           "- Développement des corrections",
           "- Tester et qualifier les solutions apportées en développement",
           "- Conteneurisation d’applications avec Docker et Podman",
+          "- Mise en place de pipelines CI/CD",
           "- Formations sur diverses technologies (React, Java/Spring Boot, Angular)"
         ],
         logo: "/logos/experiences/sopra_logo.png"
       },
       {
-        title: "Apprenti développeur",
-        company: "Sopra Steria",
-        period: "Sept. 2020 - Sept. 2022",
-        responsibilities: [
-          "- Tierce maintenance applicative sur plusieurs applications du musée du Louvre et des ministères (correction de bugs, évolutions, accessibilité numérique, etc.), en PHP / Symfony"
-        ],
-        logo: "/logos/experiences/sopra_logo.png"
-      },
-      {
-        title: "Apprenti développeur",
+        title: "Développeur fullstack",
         company: "Mairie de Vitry-sur-Seine",
         period: "Sept. 2019 - Août. 2020",
         responsibilities: [
