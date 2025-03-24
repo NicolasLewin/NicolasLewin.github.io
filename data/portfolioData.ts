@@ -3,7 +3,7 @@ export const portfolioData = {
     header: {
       name: "Nicolas Lewin",
       title: "Fullstack Software Engineer",
-      paragraph: "8 years of development with 5 years of professional experience"
+      paragraph: "5+ years of development"
     },
     studies: [
       {
