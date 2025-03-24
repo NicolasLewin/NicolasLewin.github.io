@@ -204,7 +204,7 @@ export const portfolioData = {
       languages: ["HTML / CSS", "JavaScript", "TypeScript", "Python", "Java", "PHP"],
       frameworks: ["Next.js", "Angular", "Symfony", "SpringBoot"],
       libraries: ["React", "Tailwind CSS", "Bootstrap"],
-      methods: ["Agile", "V Model"],
+      methods: ["Agile"],
       tools: ["Git", "GitLab", "Docker", "Podman", "Oracle VM Virtualbox", "SonarQube", "Jira", "Mantis"],
       databases: ["PostgreSQL", "MySQL", "MongoDB", "Redis"],
       IDEs: ["Visual Studio Code", "JetBrains IDEs"]
@@ -214,7 +214,7 @@ export const portfolioData = {
     header: {
       name: "Nicolas Lewin",
       title: "Ingénieur développeur fullstack",
-      paragraph: "8 ans de développement avec 5 ans d'expériences professionnelles"
+      paragraph: "5+ années de développement"
     },
     studies: [
       {
@@ -414,7 +414,7 @@ export const portfolioData = {
       languages: ["HTML / CSS", "JavaScript", "TypeScript", "Python", "Java", "PHP"],
       frameworks: ["Next.js", "Angular", "Symfony", "SpringBoot"],
       libraries: ["React", "Tailwind CSS", "Bootstrap"],
-      methods: ["Méthode Agile", "Cycle en V"],
+      methods: ["Méthode Agile"],
       tools: ["Git", "GitLab", "Docker", "Podman", "Oracle VM Virtualbox", "SonarQube", "Jira", "Mantis"],
       databases: ["PostgreSQL", "MySQL", "MongoDB", "Redis"],
       IDEs: ["Visual Studio Code", "JetBrains IDEs"]

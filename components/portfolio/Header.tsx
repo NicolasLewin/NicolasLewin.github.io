@@ -17,7 +17,7 @@ export function Header() {
             <a href="https://github.com/NicolasLewin" className="text-gray-400 hover:text-blue-400 transition-colors">
               <Github className="w-6 h-6" />
             </a>
-            <a href="https://www.linkedin.com/in/nicolas-lewin-682080185/" className="text-gray-400 hover:text-blue-400 transition-colors">
+            <a href="https://www.linkedin.com/in/lewin-nicolas/" className="text-gray-400 hover:text-blue-400 transition-colors">
               <Linkedin className="w-6 h-6" />
             </a>
             <a href="mailto:nicolas.lewin@outlook.com" className="text-gray-400 hover:text-blue-400 transition-colors">
