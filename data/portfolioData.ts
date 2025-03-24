@@ -190,8 +190,8 @@ export const portfolioData = {
       {
         name: "Car-sharing application",
         date: "2019",
-        description: "Application that allows users to find occupied or unoccupied cars for their trips",
-        technologies: ["HTML", "CSS", "Bootstrap", "JavaScript", "PHP", "MVC", "MySQL"]
+        description: "Application that allows users to find occupied or unoccupied cars for their trips. A back-office was developed in C#.",
+        technologies: ["HTML", "CSS", "Bootstrap", "JavaScript", "PHP", "C#", "MVC", "MySQL"]
       },
       {
         name: "Application for an original product",
@@ -201,7 +201,7 @@ export const portfolioData = {
       },
     ],
     skills: {
-      languages: ["HTML / CSS", "JavaScript", "TypeScript", "Python", "Java", "PHP"],
+      languages: ["HTML / CSS", "JavaScript", "TypeScript", "Python", "Java", "PHP", "C#"],
       frameworks: ["Next.js", "Angular", "Symfony", "SpringBoot"],
       libraries: ["React", "Tailwind CSS", "Bootstrap"],
       methods: ["Agile"],
@@ -400,8 +400,8 @@ export const portfolioData = {
       {
         name: "Application de covoiturage",
         date: "2019",
-        description: "Application permettant aux utilisateurs de trouver des voitures déjà occupées ou non, pour leurs trajets",
-        technologies: ["HTML", "CSS", "Bootstrap", "JavaScript", "PHP", "MVC", "MySQL"]
+        description: "Application permettant aux utilisateurs de trouver des voitures déjà occupées ou non, pour leurs trajets. Un back-office en C# a été également développé.",
+        technologies: ["HTML", "CSS", "Bootstrap", "JavaScript", "PHP", "C#", "MVC", "MySQL"]
       },
       {
         name: "Application pour produit original",
@@ -411,7 +411,7 @@ export const portfolioData = {
       }
     ],
     skills: {
-      languages: ["HTML / CSS", "JavaScript", "TypeScript", "Python", "Java", "PHP"],
+      languages: ["HTML / CSS", "JavaScript", "TypeScript", "Python", "Java", "PHP", "C#"],
       frameworks: ["Next.js", "Angular", "Symfony", "SpringBoot"],
       libraries: ["React", "Tailwind CSS", "Bootstrap"],
       methods: ["Méthode Agile"],
