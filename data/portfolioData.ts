@@ -121,32 +121,28 @@ export const portfolioData = {
         name: "Music Player",
         date: "2024",
         description: "Web application allowing users to upload and listen to music",
-        technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL", "Supabase", "Vercel"],
-        demoLink: "https://music-player-six-rouge.vercel.app"
+        technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL", "Supabase", "Vercel"]
       },
       {
         name: "Social Media",
         date: "2024",
         description: "Social network allowing users to express themselves and react in comments",
         technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "MongoDB", "Prisma", "Vercel"],
-        githubLink: "https://github.com/NicolasLewin/social-media",
-        demoLink: "https://social-media-one-topaz.vercel.app"
+        githubLink: "https://github.com/NicolasLewin/social-media"
       },
       {
         name: "Media Tracker",
         date: "2024",
         description: "Web application allowing users to add movies and video games they've seen/watched and write a review for them",
         technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS","PostgreSQL", "Supabase", "Prisma", "APIs", "Vercel"],
-        githubLink: "https://github.com/NicolasLewin/media-tracker",
-        demoLink: "https://media-tracker-six.vercel.app"
+        githubLink: "https://github.com/NicolasLewin/media-tracker"
       },
       {
         name: "Weather App",
         date: "2024",
         description: "Small web application allowing users to see the current weather and temperature of the city of their choice",
         technologies: ["React", "Next.js", "TypeScript","Tailwind CSS", "APIs", "Vercel"],
-        githubLink: "https://github.com/NicolasLewin/weather",
-        demoLink: "https://weather-app-seven-beige-57.vercel.app"
+        githubLink: "https://github.com/NicolasLewin/weather"
       },
       {
         name: "Portfolio",
