@@ -325,38 +325,33 @@ export const portfolioData = {
         name: "Travel Planner [EN DEVELOPPEMENT]",
         date: "2025",
         description: "Application mobile comprenant diverses fonctionnalités utiles pour la planification d'un voyage",
-        technologies: ["React Native", "TypeScript", "Tailwind CSS"],
+        technologies: ["React Native", "TypeScript", "Tailwind CSS"]
       },
       {
         name: "Music Player",
         date: "2024",
         description: "Application web permettant aux utilisateurs d'uploader et d'écouter de la musique",
-        technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL", "Supabase", "Vercel"],
-        demoLink: "https://music-player-six-rouge.vercel.app"
+        technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL", "Supabase", "Vercel"]
       },
       {
         name: "Social Media",
         date: "2024",
         description: "Réseau social permettant aux utilisateurs de s'exprimer et de réagir en commentaires",
         technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "MongoDB", "Prisma", "Vercel"],
-        githubLink: "https://github.com/NicolasLewin/social-media",
-        demoLink: "https://social-media-one-topaz.vercel.app"
-      },
+        githubLink: "https://github.com/NicolasLewin/social-media"      },
       {
         name: "Media Tracker",
         date: "2024",
         description: "Application web permettant aux utilisateurs d'ajouter les films et les jeux vidéos qu'ils ont vus/regardés et de leur écrire une review",
         technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "PostgreSQL", "Supabase", "Prisma", "APIs", "Vercel"],
-        githubLink: "https://github.com/NicolasLewin/media-tracker",
-        demoLink: "https://media-tracker-six.vercel.app"
+        githubLink: "https://github.com/NicolasLewin/media-tracker"      
       },
       {
         name: "Weather App",
         date: "2024",
         description: "Petite application web permettant aux utilisateurs de voir la météo et la température actuelle dans la ville de son choix",
         technologies: ["React", "Next.js", "TypeScript", "Tailwind CSS", "APIs", "Vercel"],
-        githubLink: "https://github.com/NicolasLewin/weather",
-        demoLink: "https://weather-app-seven-beige-57.vercel.app"
+        githubLink: "https://github.com/NicolasLewin/weather"      
       },
       {
         name: "Portfolio",
